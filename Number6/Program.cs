@@ -12,6 +12,7 @@ namespace Number6
         /// <param name="m"></param>
         static void FunctionAN(int a1, int a2, int a3, int m)
         {
+
             int CurrentN = a1 * a2 + a3;
             if (CurrentN < m)
                 FunctionAN(a2, a3, CurrentN, m);
